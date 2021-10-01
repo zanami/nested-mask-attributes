@@ -1,0 +1,15 @@
+node_modules
+build
+.DS_Store
+
+# InteliJ IDE config
+.idea/
+
+# VSCODE
+.vscode/*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
