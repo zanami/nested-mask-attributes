@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/rluque8/nested-mask-attributes/compare/v1.0.0...v1.1.0) (2021-10-02)
+
+
+### Features
+
+* renamed repo ([de9adf6](https://www.github.com/rluque8/nested-mask-attributes/commit/de9adf6760593e8b870c041b6716882af50471b8))
+
 ## 1.0.0 (2021-10-01)
 
 
