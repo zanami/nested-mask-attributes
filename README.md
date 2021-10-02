@@ -5,7 +5,7 @@
 
 <h3 align="center">
 
-[![npm version](https://badge.fury.io/js/nested-mask.svg)](https://badge.fury.io/js/nested-mask)
+[![npm version](https://badge.fury.io/js/nested-mask-attributes.svg)](https://badge.fury.io/js/nested-mask-attributes)
 
 
 
@@ -29,7 +29,7 @@
 
 
 ```
-npm install nested-mask
+npm install nested-mask-attributes
 ```
 
 ## Usage
@@ -42,11 +42,11 @@ npm install nested-mask
 ```ts
 import {
   maskAttribute
-} from 'nested-mask';
+} from 'nested-mask-attributes';
 
 // The object that has the attribute(s) to hide or mask
 const testObject = {
-  name: "nested-mask",
+  name: "nested-mask-attributes",
   features: {
     id: "nm123456",
     date: "2021-10-01T14:36:06.265Z",
@@ -89,11 +89,11 @@ const testObjectMask = maskAttribute(testObject, ["name", "isEnabled"], {
 ```ts
 import {
   maskAttribute
-} from 'nested-mask';
+} from 'nested-mask-attributes';
 
 // The object that has the attribute(s) to hide or mask
 const testObject = {
-  name: "nested-mask",
+  name: "nested-mask-attributes",
   features: {
     id: "nm123456",
     date: "2021-10-01T14:36:06.265Z",

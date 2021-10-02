@@ -1,6 +1,6 @@
 {
-  "name": "nested-mask",
-  "version": "1.0.0",
+  "name": "nested-mask-attributes",
+  "version": "1.0.1",
   "description": "Library to hide or mask specific nested attributes that you desire from a javascript object",
   "main": "build/index.js",
   "scripts": {
@@ -36,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rluque8/nested-mask.git"
+    "url": "https://github.com/rluque8/nested-mask-attributes.git"
   },
   "bugs": {
-    "url": "https://github.com/rluque8/nested-mask/issues"
+    "url": "https://github.com/rluque8/nested-mask-attributes/issues"
   }
 }
