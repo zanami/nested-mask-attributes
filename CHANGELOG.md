@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/rluque8/nested-mask-attributes/compare/v1.1.0...v1.2.0) (2021-10-03)
+
+
+### Features
+
+* exported types and updated readme ([f1c8b18](https://www.github.com/rluque8/nested-mask-attributes/commit/f1c8b189ec65016d7fec39932b856d8606a73015))
+
 ## [1.1.0](https://www.github.com/rluque8/nested-mask-attributes/compare/v1.0.0...v1.1.0) (2021-10-02)
 
 
