@@ -1,6 +1,6 @@
 {
   "name": "nested-mask-attributes",
-  "version": "1.1.1-rc.0",
+  "version": "1.1.1",
   "description": "Library to hide or mask specific nested attributes that you desire from a javascript object",
   "main": "build/index.js",
   "scripts": {
