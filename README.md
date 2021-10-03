@@ -35,13 +35,14 @@ npm install nested-mask-attributes
 ## Usage
 
 
-### Example of hidding attributes:
+### Example of masking attributes:
 
 <br/>
 
 ```ts
 import {
-  maskAttribute
+  MaskActions,
+  maskAttribute,
 } from 'nested-mask-attributes';
 
 // The object that has the attribute(s) to hide or mask
@@ -81,14 +82,15 @@ const testObjectMask = maskAttribute(testObject, ["name", "isEnabled"], {
 
 <br/>
 
-### Example of masking attributes:
+### Example of hiding attributes:
 
 <br/>
 
 
 ```ts
 import {
-  maskAttribute
+  MaskActions,
+  maskAttribute,
 } from 'nested-mask-attributes';
 
 // The object that has the attribute(s) to hide or mask
@@ -171,7 +173,7 @@ If the attribute is contained in the object but it is of type "object" then it w
 |:--------------:|:-----------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |     action     | MaskAction  (HIDE/MASK) |                                                                       Action to execute when the attribute is found.                                                                       |
 | substituteChar |    string (optional)    |                                     Default is "*". Char or string to substitute current value. __[It is only applied if the action is MaskActions.MASK]__                                     |
-|  useSameLength |    boolean (optional)   | Default is false. Indicates the length of the string that will replace the value of the attribute. By default the length used is 5. __[It is only applied if the action is MaskActions.MASK]__ |
+|  useSameLength |    boolean (optional)   | Default is false. Flag to indicate if the length of the string that will replace the original value of the attribute will keep the same length. If set to false, by default the length used is 5. __[It is only applied if the action is MaskActions.MASK]__ |
 
 <br/>
 
