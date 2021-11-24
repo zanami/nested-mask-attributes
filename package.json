@@ -11,10 +11,6 @@
     "test": "jest --passWithNoTests --maxWorkers=2 --config=./jest.config.js",
     "playground": "ts-node-dev ./lib/playground.ts"
   },
-  "engines": {
-    "node": "16.10.0",
-    "npm": "6.12.1"
-  },
   "keywords": [
     "attribute",
     "object",
